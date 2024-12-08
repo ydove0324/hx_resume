@@ -73,8 +73,7 @@ work:
       - Led full stack development (backend-focused) for 3 projects, including an AI-powered educational content platform
       - Developed an intelligent system that transforms diverse educational materials (PDFs, lecture recordings, PPTs, handwritten notes) into structured notes, mind maps, and podcasts
       - Gained deep expertise in advanced AI techniques including Chain-of-Thought reasoning, prompt engineering, and Retrieval-Augmented Generation
-      - Raised $300K in funding
-      - Latest project achieved $4000 revenue within first month of launch
+      - Latest project achieved $10000+ revenue within first month of launch
   - position: Research
     company_name: ''
     date_start: 2024-05-01
