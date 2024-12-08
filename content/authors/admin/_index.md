@@ -43,7 +43,7 @@ education:
     date_start: 2022-09-01
     date_end: ''
     summary: |
-      GPA: 92.9/100 (Rank: 2/378)
+      GPA: 93.15/100 (Rank: 2/377)
 
 # Add your interests section
 interests:
