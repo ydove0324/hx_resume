@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Galois Huang (黄旭)
 
 # Name pronunciation (optional)
 name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Xu
+last_name: Huang
 
 # Status emoji
 status:
@@ -28,7 +28,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'ydove1031@gmail.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
@@ -40,133 +40,96 @@ profiles:
     url: https://www.instagram.com/
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+  - area: BSc Computer Science and Technology
+    institution: Beijing University of Posts and Telecommunications
+    date_start: 2022-09-01
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      GPA: 92.9/100 (Rank: 2/378)
+
+# Add your interests section
+interests:
+  - AIGC for 3D
+  - computer vision
+  - Multimodal Large Language Models
+
+# Replace work section with experience
+work:
+  - position: Research Intern
+    company_name: PKU Melon Lab
+    date_start: 2024-06-01
+    date_end: 2024-12-01
+    summary: |
+      Conducted 6-month research on various GPU parallel computing methods for quantum state generation and their efficiency impacts. Interested in ICML submission.
+  
+  - position: AI Research Intern
+    company_name: Tencent IEG Game AI Lab
+    date_start: 2024-02-01
+    date_end: ''
+    summary: |
+      Led an AI 3D layout generation project, utilizing visual-language models for scene layout generation. Worked in a high-level game AI team previously responsible for Honor of Kings. Aiming for Siggraph submission.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: devicon/python
-      - name: RStudio
-        description: ''
-        percent: 100
-        icon: devicon/rstudio
-      - name: PyTorch
-        description: ''
-        percent: 40
-        icon: devicon/pytorch
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+# skills:
+#   - name: Technical Skills
+#     items:
+#       - name: Python
+#         description: ''
+#         percent: 80
+#         icon: devicon/python
+#       - name: RStudio
+#         description: ''
+#         percent: 100
+#         icon: devicon/rstudio
+#       - name: PyTorch
+#         description: ''
+#         percent: 40
+#         icon: devicon/pytorch
+#   - name: Hobbies
+#     color: '#eeac02'
+#     color_border: '#f0bf23'
+#     items:
+#       - name: Hiking
+#         description: ''
+#         percent: 60
+#         icon: person-simple-walk
+#       - name: Cats
+#         description: ''
+#         percent: 100
+#         icon: cat
+#       - name: Photography
+#         description: ''
+#         percent: 80
+#         icon: camera
 
 languages:
   - name: English
-    percent: 100
-  - name: Chinese
     percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Chinese
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  - title: ICPC Gold Medal (Xi'an Site)
+    date: '2023-10-01'
+    awarder: International Collegiate Programming Contest
+  - title: CCPC Gold Medal (Harbin Site)
+    date: '2023-11-01'
+    awarder: China Collegiate Programming Contest
+  - title: NOI Silver Medal
+    date: '2021-07-24'
+    awarder: National Olympiad in Informatics
+  - title: CCSP 6th Place Nationally
+    date: '2023-10-28'
+    awarder: CCF Collegiate System and Programming Competition
+
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+
+I am Xu Huang, a third-year undergraduate student with a strong competitive programming background, including an ACM-ICPC Gold Medal, NOI Silver Medal, and 6th place nationally in CCSP (CCF Collegiate System and Programming Competition). I was selected for Tencent's Spark Program (accepting only 50 participants globally each year) and served as a key technical developer at a startup backed by Miracle Plus Alternative Investment (formerly YC China). My research interests center on advancing Multimodal Large Language Models (MLLMs) and Computer Vision, specifically focusing on visual-linguistic understanding and generative AI applications. I have previous experience working on AIGC for 3D applications. I am actively seeking PhD positions and am passionate about making impactful contributions to the field of AI.
+
+我叫黄旭, 是一名大三本科生，我在算法竞赛方面取得了优异成绩，包括ACM-ICPC金牌、NOI银牌，以及在CCSP（CCF中国大学生系统与程序设计竞赛）中获得全国第六名。我曾入选腾讯星火计划（每年全球仅招收50人），并在奇绩创坛（原YC中国）投资的初创企业担任核心技术开发。目前我主要研究兴趣集中在多模态大语言模型（MLLM）和视觉及 3D场景的理解和生成。此前，我在AIGC for 3D方向有过一些研究工作。我正在寻找PhD职位，希望能够为改变世界贡献自己的力量。
