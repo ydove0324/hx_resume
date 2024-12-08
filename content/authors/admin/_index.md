@@ -47,9 +47,9 @@ education:
 
 # Add your interests section
 interests:
-  - AIGC for 3D
-  - computer vision
-  - Multimodal Large Language Models
+  - 3D Scene/Video Understanding and Generation
+  - World Models
+  - Multimodal Foundation Models
 
 # Replace work section with experience
 work:
@@ -153,6 +153,6 @@ awards:
 ---
 
 
-I am Xu Huang, a third-year undergraduate student with a strong competitive programming background, including an ACM-ICPC Gold Medal, NOI Silver Medal, and 6th place nationally in CCSP (CCF Collegiate System and Programming Competition). I was selected for Tencent's Spark Program (accepting only 50 participants globally each year) and served as a key technical developer at a startup backed by Miracle Plus Alternative Investment (formerly YC China). My research interests center on advancing Multimodal Large Language Models (MLLMs) and Computer Vision, specifically focusing on visual-linguistic understanding and generative AI applications. I have previous experience working on AIGC for 3D applications. I am actively seeking PhD positions and am passionate about making impactful contributions to the field of AI.
+I am Xu Huang, a third-year undergraduate student with a strong competitive programming background, including an ACM-ICPC Gold Medal, NOI Silver Medal, and 6th place nationally in CCSP (CCF Collegiate System and Programming Competition). I was selected for Tencent's Spark Program (accepting only 50 participants globally each year) and served as a key technical developer at a startup backed by Miracle Plus Alternative Investment (formerly YC China). My research interests focus on 3D scene/video understanding and generation, world models, and multimodal foundation models. I have previous experience working on AIGC for 3D applications. I am actively seeking PhD positions and am passionate about making impactful contributions to the field of AI.
 
-我叫黄旭, 是一名大三本科生，我在算法竞赛方面取得了优异成绩，包括ACM-ICPC金牌、NOI银牌，以及在CCSP（CCF中国大学生系统与程序设计竞赛）中获得全国第六名。我曾入选腾讯星火计划（每年全球仅招收50人），并在奇绩创坛（原YC中国）投资的初创企业担任核心技术开发。目前我主要研究兴趣集中在多模态大语言模型（MLLM）和视觉及 3D场景的理解和生成。此前，我在AIGC for 3D方向有过一些研究工作。我正在寻找PhD职位，希望能够为改变世界贡献自己的力量。
+我叫黄旭, 是一名大三本科生，我在算法竞赛方面取得了优异成绩，包括ACM-ICPC金牌、NOI银牌，以及在CCSP（CCF中国大学生系统与程序设计竞赛）中获得全国第六名。我曾入选腾讯星火计划（每年全球仅招收50人），并在奇绩创坛（原YC中国）投资的初创企业担任核心技术开发。目前我主要研究兴趣集中在3D场景/视频的理解与生成、世界模型（World Model）以及多模态基础模型方向。此前，我在AIGC for 3D方向有过一些研究工作。我正在寻找PhD职位，希望能够为改变世界贡献自己的力量。
