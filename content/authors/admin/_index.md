@@ -86,7 +86,6 @@ work:
     date_start: 2023-07-01
     date_end: 2023-09-01
     summary: |
-      Participated in Tencent's Spark Program (accepting only 50 participants globally annually):
       - Reproduced Vector Fusion paper for text-to-SVG generation using Score Distillation Sampling (SDS) and diffrentiable rendering
       - Implemented automatic vector graphics generation pipeline with diffusion models
       - Optimized Bezier curve parameters for high-quality SVG output
