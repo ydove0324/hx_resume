@@ -2,8 +2,6 @@
 # Display name
 title: Galois Huang (黄旭)
 
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
 first_name: Xu
@@ -16,13 +14,13 @@ status:
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position/tagline
-role: Director of Cloud Infrastructure
+# # Role/position/tagline
+# role: Director of Cloud Infrastructure
 
-# Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+# # Organizations/Affiliations to display in Biography blox
+# organizations:
+#   - name: GenCoin
+#     url: https://www.example.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -30,14 +28,14 @@ profiles:
   - icon: at-symbol
     url: 'ydove1031@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  # - icon: brands/x
+  #   url: https://twitter.com/GetResearchDev
+  # - icon: brands/github
+  #   url: https://github.com/gcushen
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/
 
 education:
   - area: BSc Computer Science and Technology
@@ -55,19 +53,45 @@ interests:
 
 # Replace work section with experience
 work:
+  - position: AI Research Intern
+    company_name: Tencent IEG Game AI Lab
+    date_start: 2024-02-01
+    date_end: ''
+    summary: |
+      Led an AI 3D layout generation project addressing limited 3D scene data by distilling scene arrangement knowledge from 2D vision models. Developed a coarse-to-fine pipeline combining visual models with scene graph optimization, implementing iterative refinement through generated 3D scenes to achieve diverse layouts in novel 3D databases. Aiming for Siggraph submission.
   - position: Research Intern
     company_name: PKU Melon Lab
     date_start: 2024-06-01
     date_end: 2024-12-01
     summary: |
       Conducted 6-month research on various GPU parallel computing methods for quantum state generation and their efficiency impacts. Interested in ICML submission.
-  
-  - position: AI Research Intern
-    company_name: Tencent IEG Game AI Lab
-    date_start: 2024-02-01
+  - position: Core Developer
+    company_name: ZhibeiTech
+    date_start: 2023-09-01
     date_end: ''
     summary: |
-      Led an AI 3D layout generation project, utilizing visual-language models for scene layout generation. Worked in a high-level game AI team previously responsible for Honor of Kings. Aiming for Siggraph submission.
+      - Led full stack development (backend-focused) for 3 projects, including an AI-powered educational content platform
+      - Developed an intelligent system that transforms diverse educational materials (PDFs, lecture recordings, PPTs, handwritten notes) into structured notes, mind maps, and podcasts
+      - Gained deep expertise in advanced AI techniques including Chain-of-Thought reasoning, prompt engineering, and Retrieval-Augmented Generation
+      - Raised $300K in funding
+      - Latest project achieved $4000 revenue within first month of launch
+  - position: Research
+    company_name: ''
+    date_start: 2024-05-01
+    date_end: 2024-08-01
+    summary: |
+      Proposed a novel Mutual information based approach for RAG retrieval compression, significantly outperforming SOTA with > 25% improvement in AAAI submission.
+      url: https://arxiv.org/abs/2408.10497v1
+  - position: AI Research Intern
+    company_name: Tencent
+    date_start: 2023-07-01
+    date_end: 2023-09-01
+    summary: |
+      Participated in Tencent's Spark Program (accepting only 50 participants globally annually):
+      - Reproduced Vector Fusion paper for text-to-SVG generation using Score Distillation Sampling (SDS) and diffrentiable rendering
+      - Implemented automatic vector graphics generation pipeline with diffusion models
+      - Optimized Bezier curve parameters for high-quality SVG output
+      - url: https://github.com/ydove0324/vector_fusion
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
