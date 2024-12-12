@@ -79,7 +79,7 @@ work:
     date_start: 2024-05-01
     date_end: 2024-08-01
     summary: |
-      Proposed a novel Mutual information based approach for RAG retrieval compression, significantly outperforming SOTA with > 25% improvement in AAAI submission.
+      Proposed a novel Mutual information based approach for RAG retrieval compression, significantly outperforming SOTA with > 25% improvement in ACL submission.
       url: https://arxiv.org/abs/2408.10497v1
   - position: AI Research Intern
     company_name: Tencent
