@@ -54,7 +54,7 @@ interests:
 # Replace work section with experience
 work:
   - position: AI Research Intern
-    company_name: Tencent IEG Game AI Lab
+    company_name: Tencent IEG Game AI Center
     date_start: 2024-02-01
     date_end: ''
     summary: |
