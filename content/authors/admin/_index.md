@@ -56,31 +56,22 @@ work:
   - position: AI Research Intern
     company_name: Tencent IEG Game AI Center
     date_start: 2024-02-01
-    date_end: ''
+    date_end: 2025-01-01
     summary: |
-      Led an AI 3D layout generation project addressing limited 3D scene data by distilling scene arrangement knowledge from 2D vision models. Developed a coarse-to-fine pipeline combining visual models with scene graph optimization, implementing iterative refinement through generated 3D scenes to achieve diverse layouts in novel 3D databases. Aiming for Siggraph submission.
+      Led an AI 3D layout generation project addressing limited 3D scene data by distilling scene arrangement knowledge from 2D vision models. Developed a coarse-to-fine pipeline combining visual models with scene graph optimization, implementing iterative refinement through generated 3D scenes to achieve diverse layouts in novel 3D databases. Submitted to Siggraph.
   - position: Research Intern
     company_name: PKU Melon Lab
     date_start: 2024-06-01
     date_end: 2024-12-01
     summary: |
-      Conducted 6-month research on various GPU parallel computing methods for quantum state generation and their efficiency impacts. Interested in ICML submission.
-  - position: Core Developer
-    company_name: ZhibeiTech
-    date_start: 2023-09-01
-    date_end: ''
-    summary: |
-      - Led full stack development (backend-focused) for 3 projects, including an AI-powered educational content platform
-      - Developed an intelligent system that transforms diverse educational materials (PDFs, lecture recordings, PPTs, handwritten notes) into structured notes, mind maps, and podcasts
-      - Gained deep expertise in advanced AI techniques including Chain-of-Thought reasoning, prompt engineering, and Retrieval-Augmented Generation
-      - Latest project achieved $10000+ revenue within first month of launch
+      Conducted 6-month research on various GPU parallel computing methods for quantum state generation and their efficiency impacts. submitted to ICML.
   - position: Research
     company_name: ''
     date_start: 2024-05-01
     date_end: 2024-08-01
     summary: |
       Proposed a novel Mutual information based approach for RAG retrieval compression, significantly outperforming SOTA with > 25% improvement in ACL submission.
-      url: https://arxiv.org/abs/2408.10497v1
+      url: https://arxiv.org/abs/2408.10497v2
   - position: AI Research Intern
     company_name: Tencent
     date_start: 2023-07-01
