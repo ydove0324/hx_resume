@@ -92,6 +92,25 @@ awards:
     date: '2021-07-01'
     awarder: National Olympiad in Informatics
 
+publications:
+  - title: "Imaginarium: Vision-guided High-Quality Scene Layout Design"
+    authors: "Xu Huang*, et al."
+    publication: "SIGGRAPH-Asia & TOG (3 3 1 1 All positive)"
+    date: "2025-01-01"
+    summary: |
+      Utilized an image generation model to create and analyze scene images, retrieving relevant assets from a predefined library.  
+      Trained a Dino V2 model to estimate 6D pose and scale of each object.  
+      Enhanced consistency via reject-sampling fine-tuning of the generation model.
+
+  - title: "QUITO-X: A New Perspective on Context Compression from the Information Bottleneck Theory"
+    authors: "Xu Huang*, et al."
+    publication: "EMNLP"
+    date: "2024-08-01"
+    summary: |
+      Proposed a lightweight model proxying a large LLM, leveraging attention-based token importance to compress redundant context and reduce inference cost.  
+      [arXiv link](https://arxiv.org/abs/2408.10497)
+
+  - title: "Emu3.5: Native Multimodal Models are World Learners"
 
 ---
 
