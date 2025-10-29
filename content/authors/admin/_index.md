@@ -1,7 +1,6 @@
 ---
 # Display name
-title: Galois Huang (黄旭)
-
+title: Xu Huang (黄旭)
 
 # Full name (for SEO)
 first_name: Xu
@@ -11,110 +10,67 @@ last_name: Huang
 status:
   icon: ☕️
 
-# Is this the primary user of the site?
 superuser: true
 
-# # Role/position/tagline
-# role: Director of Cloud Infrastructure
-
-# # Organizations/Affiliations to display in Biography blox
-# organizations:
-#   - name: GenCoin
-#     url: https://www.example.com/
-
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
     url: 'ydove1031@gmail.com'
     label: E-mail Me
-  # - icon: brands/x
-  #   url: https://twitter.com/GetResearchDev
-  # - icon: brands/github
-  #   url: https://github.com/gcushen
-  # - icon: brands/linkedin
-  #   url: https://www.linkedin.com/
-  # - icon: brands/instagram
-  #   url: https://www.instagram.com/
+  - icon: brands/github
+    url: https://ydove0324.github.io/hxresume/
+    label: GitHub
 
 education:
   - area: BSc Computer Science and Technology
     institution: Beijing University of Posts and Telecommunications
     date_start: 2022-09-01
+    date_end: 2026-06-30
+    summary: |
+      GPA: 93.3 / 100 (Rank: 4 / 388)
+
+  - area: MPhil in Computer Science (Incoming)
+    institution: Peking University
+    date_start: 2026-09-01
     date_end: ''
     summary: |
-      GPA: 93.15/100 (Rank: 2/377)
+      Advised by Prof. Daquan Zhou
 
-# Add your interests section
 interests:
-  - 3D Scene/Video Understanding and Generation
-  - World Models
   - Multimodal Foundation Models
+  - Video Generation
+  - World Models
 
-# Replace work section with experience
 work:
-  - position: AI Research Intern
-    company_name: Tencent IEG Game AI Center
-    date_start: 2024-02-01
-    date_end: 2025-01-01
-    summary: |
-      Led an AI 3D layout generation project addressing limited 3D scene data by distilling scene arrangement knowledge from 2D vision models. Developed a coarse-to-fine pipeline combining visual models with scene graph optimization, implementing iterative refinement through generated 3D scenes to achieve diverse layouts in novel 3D databases. Submitted to Siggraph.
   - position: Research Intern
-    company_name: PKU Melon Lab
-    date_start: 2024-06-01
-    date_end: 2024-12-01
+    company_name: BAAI (Beijing Academy of Artificial Intelligence)
+    date_start: 2025-06-01
+    date_end: ''
     summary: |
-      Conducted 6-month research on various GPU parallel computing methods for quantum state generation and their efficiency impacts. submitted to ICML.
-  - position: Research
-    company_name: ''
-    date_start: 2024-05-01
-    date_end: 2024-08-01
+      Participating in the development of the next-generation Emu unified multimodal large model.  
+      Major contributor to the video generation component of the unified model.
+
+  - position: Research Intern
+    company_name: Tencent
+    date_start: 2024-02-01
+    date_end: 2025-01-31
     summary: |
-      Proposed a novel Mutual information based approach for RAG retrieval compression, significantly outperforming SOTA with > 25% improvement in ACL submission.
-      url: https://arxiv.org/abs/2408.10497v2
-  - position: AI Research Intern
+      Led a text/image-to-3D-layout project, controllably constructing 3D scenes from a predefined asset library.
+
+  - position: Research Intern
+    company_name: Peking University
+    date_start: 2024-07-01
+    date_end: 2024-12-31
+    summary: |
+      Focused on memory and communication-efficient pretraining, finetuning, and inference of large language models.
+
+  - position: Algorithm Engineering Intern
     company_name: Tencent
     date_start: 2023-07-01
-    date_end: 2023-09-01
+    date_end: 2023-09-30
     summary: |
-      - Reproduced Vector Fusion paper for text-to-SVG generation using Score Distillation Sampling (SDS) and diffrentiable rendering
-      - Implemented automatic vector graphics generation pipeline with diffusion models
-      - Optimized Bezier curve parameters for high-quality SVG output
-      - url: https://github.com/ydove0324/vector_fusion
-
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-# skills:
-#   - name: Technical Skills
-#     items:
-#       - name: Python
-#         description: ''
-#         percent: 80
-#         icon: devicon/python
-#       - name: RStudio
-#         description: ''
-#         percent: 100
-#         icon: devicon/rstudio
-#       - name: PyTorch
-#         description: ''
-#         percent: 40
-#         icon: devicon/pytorch
-#   - name: Hobbies
-#     color: '#eeac02'
-#     color_border: '#f0bf23'
-#     items:
-#       - name: Hiking
-#         description: ''
-#         percent: 60
-#         icon: person-simple-walk
-#       - name: Cats
-#         description: ''
-#         percent: 100
-#         icon: cat
-#       - name: Photography
-#         description: ''
-#         percent: 80
-#         icon: camera
+      Utilized Score Distillation Sampling (SdS) and differentiable rendering to train diffusion models for SVG vector generation.  
+      [GitHub link](https://github.com/ydove0324/vector_fusion)
 
 languages:
   - name: English
@@ -122,27 +78,26 @@ languages:
   - name: Chinese
     percent: 100
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: ICPC Gold Medal (Xi'an Site)
+  - title: CCSP (Collegiate Computer Systems & Programming Contest) – 6th Nationwide
+    date: '2023-10-01'
+    awarder: CCF
+  - title: ACM-ICPC Gold Medal
     date: '2023-10-01'
     awarder: International Collegiate Programming Contest
-  - title: CCPC Gold Medal (Harbin Site)
+  - title: CCPC Gold Medal
     date: '2023-11-01'
-    awarder: China Collegiate Programming Contest
+    awarder: Chinese Collegiate Programming Contest
   - title: NOI Silver Medal
-    date: '2021-07-24'
+    date: '2021-07-01'
     awarder: National Olympiad in Informatics
-  - title: CCSP 6th Place Nationally
-    date: '2023-10-28'
-    awarder: CCF Collegiate System and Programming Competition
+
 
 ---
 
 
-I am Xu Huang, a third-year undergraduate student with a strong competitive programming background, including an ACM-ICPC Gold Medal, NOI Silver Medal, and 6th place nationally in CCSP (CCF Collegiate System and Programming Competition). I was selected for Tencent's Spark Program (accepting only 50 participants globally each year) and served as a key technical developer at a startup backed by Miracle Plus Alternative Investment (formerly YC China). My research interests focus on 3D scene/video understanding and generation, world models, and multimodal foundation models. I have previous experience working on AIGC for 3D applications. I am actively seeking PhD positions and am passionate about making impactful contributions to the field of AI.
+I am Xu Huang, an incoming MPhil student at Peking University, advised by Prof. Daquan Zhou. My research interests lie in multimodal unified models, video generation, and world models.
+Currently, I am a Research Intern at the Beijing Academy of Artificial Intelligence (BAAI), contributing to Emu3.5 Unified multimodal model. 
+Previously, I worked at Tencent on 3D scene layout generation and at Peking University on efficient pretraining and inference of large language models.
+My background in competitive programming includes awards such as the ACM-ICPC Gold Medal, CCPC Gold Medal, and NOI Silver Medal.
 
-我叫黄旭, 是一名大三本科生，我在算法竞赛方面取得了优异成绩，包括ACM-ICPC金牌、NOI银牌，以及在CCSP（CCF中国大学生系统与程序设计竞赛）中获得全国第六名。我曾入选腾讯星火计划（每年全球仅招收50人），并在奇绩创坛（原YC中国）投资的初创企业担任核心技术开发。目前我主要研究兴趣集中在3D场景/视频的理解与生成、世界模型（World Model）以及多模态基础模型方向。此前，我在AIGC for 3D方向有过一些研究工作。我正在寻找PhD职位，希望能够为改变世界贡献自己的力量。
