@@ -20,6 +20,9 @@ profiles:
   - icon: brands/github
     url: https://ydove0324.github.io/hxresume/
     label: GitHub
+  - icon: academicons/google-scholar
+    url: 'https://scholar.google.com/citations?user=rCyq9oIAAAAJ&hl=en'
+    label: Google Scholar
 
 education:
   - area: BSc Computer Science and Technology
@@ -37,11 +40,14 @@ education:
       Advised by Prof. Daquan Zhou
 
 interests:
-  - Multimodal Foundation Models
-  - Video Generation
-  - World Models
+  - Building Useful AI
 
 work:
+  - position: Research Intern
+    company_name: Meituan — Beidou Program (美团北斗计划)
+    summary: |
+      Worked on discrete unified representations, followed by post-training for visual agents.
+
   - position: Research Intern
     company_name: BAAI (Beijing Academy of Artificial Intelligence)
     date_start: 2025-06-01
@@ -115,8 +121,10 @@ publications:
 ---
 
 
-I am Xu Huang, an incoming MPhil student at Peking University, advised by Prof. Daquan Zhou. My research interests lie in multimodal unified models, video generation, and world models.
-Currently, I am a Research Intern at the Beijing Academy of Artificial Intelligence (BAAI), contributing to Emu3.5 Unified multimodal model. 
-Previously, I worked at Tencent on 3D scene layout generation and at Peking University on efficient pretraining and inference of large language models.
+I am now interested in building useful AI.
+
+I am Xu Huang, an incoming MPhil student at Peking University, advised by Prof. Daquan Zhou.
+At Meituan's Beidou Program, I have worked on discrete unified representations, followed by post-training for visual agents.
 My background in competitive programming includes awards such as the ACM-ICPC Gold Medal, CCPC Gold Medal, and NOI Silver Medal.
 
+[Google Scholar](https://scholar.google.com/citations?user=rCyq9oIAAAAJ&hl=en)
