@@ -126,5 +126,6 @@ publications:
 
 
 I am Xu Huang, an MPhil student at Peking University, advised by Prof. Daquan Zhou. I am now interested in building useful AI that can act, evaluate its own work, and build complex systems through iterative, vision-in-the-loop reflection.
+I envision systems that can even build their own benchmarks, identify their own weaknesses, and create targeted environments and data to continually improve themselves.
 
 In the pre-GPT era, I won several programming competition awards, including an ACM-ICPC Gold Medal, a CCPC Gold Medal, and an NOI Silver Medal.
