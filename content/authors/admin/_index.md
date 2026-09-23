@@ -32,7 +32,7 @@ education:
     summary: |
       GPA: 93.3 / 100 (Rank: 4 / 388)
 
-  - area: MPhil in Computer Science (Incoming)
+  - area: MPhil in Computer Science
     institution: Peking University
     date_start: 2026-09-01
     date_end: ''
@@ -45,13 +45,17 @@ interests:
 work:
   - position: Research Intern
     company_name: Meituan — Beidou Program (美团北斗计划)
+    date_start: 2026-02-01
+    date_end: ''
     summary: |
-      Worked on discrete unified representations, followed by post-training for visual agents.
+      I am a major contributor to the development of discrete unified representations for the LongCat-Next and LongCat-Pro-V series.
+
+      I am also a core member of the team working on visual agent post-training for foundation models.
 
   - position: Research Intern
     company_name: BAAI (Beijing Academy of Artificial Intelligence)
     date_start: 2025-06-01
-    date_end: ''
+    date_end: 2026-02-28
     summary: |
       Participating in the development of the next-generation Emu unified multimodal large model.  
       Major contributor to the video generation component of the unified model.
@@ -121,10 +125,6 @@ publications:
 ---
 
 
-I am now interested in building useful AI.
+I am Xu Huang, an MPhil student at Peking University, advised by Prof. Daquan Zhou. I am now interested in building useful AI that can act, evaluate its own work, and build complex systems through iterative, vision-in-the-loop reflection.
 
-I am Xu Huang, an incoming MPhil student at Peking University, advised by Prof. Daquan Zhou.
-At Meituan's Beidou Program, I have worked on discrete unified representations, followed by post-training for visual agents.
-My background in competitive programming includes awards such as the ACM-ICPC Gold Medal, CCPC Gold Medal, and NOI Silver Medal.
-
-[Google Scholar](https://scholar.google.com/citations?user=rCyq9oIAAAAJ&hl=en)
+In the pre-GPT era, I won several programming competition awards, including an ACM-ICPC Gold Medal, a CCPC Gold Medal, and an NOI Silver Medal.
