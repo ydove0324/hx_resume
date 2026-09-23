@@ -67,13 +67,6 @@ work:
     summary: |
       Led a text/image-to-3D-layout project, controllably constructing 3D scenes from a predefined asset library.
 
-  - position: Research Intern
-    company_name: Peking University
-    date_start: 2024-07-01
-    date_end: 2024-12-31
-    summary: |
-      Focused on memory and communication-efficient pretraining, finetuning, and inference of large language models.
-
   - position: Algorithm Engineering Intern
     company_name: Tencent
     date_start: 2023-07-01
