@@ -1,0 +1,21 @@
+{{ $block := .wcBlock }}
+{{ $person := site.GetPage (printf "/authors/%s" ($block.content.username | default "admin")) }}
+{{ $items := index $person.Params $block.content.field }}
+
+<div class="flex flex-col max-w-prose mx-auto px-6 gap-6">
+  <h2 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">{{ $block.content.title }}</h2>
+  {{ range $items }}
+  <article class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <h3 class="mb-3 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{{ .title }}</h3>
+    {{ with .metadata }}
+    <p class="mb-3 text-sm text-gray-500 dark:text-gray-300">{{ . }}</p>
+    {{ end }}
+    <div class="prose prose-slate dark:prose-invert max-w-prose">
+      {{ .summary | markdownify }}
+    </div>
+    {{ with .url }}
+    <a href="{{ . }}" class="inline-flex mt-4 text-primary-600 dark:text-primary-300 hover:underline">Read paper →</a>
+    {{ end }}
+  </article>
+  {{ end }}
+</div>

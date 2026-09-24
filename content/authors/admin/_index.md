@@ -95,25 +95,47 @@ awards:
     date: '2021-07-01'
     awarder: National Olympiad in Informatics
 
-publications:
-  - title: "Imaginarium: Vision-guided High-Quality Scene Layout Design"
-    authors: "Xu Huang*, et al."
-    publication: "SIGGRAPH-Asia & TOG (3 3 1 1 All positive)"
-    date: "2025-01-01"
+projects:
+  - title: "Visual Agent Post-Training — Meituan"
+    metadata: "2026"
     summary: |
-      Utilized an image generation model to create and analyze scene images, retrieving relevant assets from a predefined library.  
-      Trained a Dino V2 model to estimate 6D pose and scale of each object.  
-      Enhanced consistency via reject-sampling fine-tuning of the generation model.
+      - Primarily responsible for visual agent post-training. Built task environments for PPT creation, HTML generation, interactive web development, and open-ended 3D scene construction using Blender and Three.js, and synthesized task data for post-training.
+      - Developed evaluation rubrics for functional usability and visual aesthetics to guide evaluation and post-training.
+      - Implemented automated, iterative optimization of agent harnesses and distilled effective harness strategies into the model.
+
+  - title: "Vision Encoder Training — Meituan"
+    summary: |
+      - **Major contributor** to the development of highly compressed discrete visual representations for unified understanding and generation, validated internally and adopted in LongCat-Pro-V (1.6T) and the LongCat-Next series.
+      - Systematically studied how scaling multi-level codebooks narrows the fidelity gap between discrete and continuous representations at high compression ratios, and how to integrate high-level semantic features with low-level pixel details.
+
+publications:
+  - title: "Emu3.5: Native Multimodal Models are World Learners"
+    metadata: "October 2025 · Core contributor"
+    url: "https://arxiv.org/abs/2510.26583"
+    summary: |
+      Mainly contributed to the diffusion decoder, tokenizer, and Discrete Diffusion Adaption. Emu3.5 is one of the most advanced open-source native multimodal models developed by BAAI.
+
+  - title: "SAE (Semantic AutoEncoder)"
+    metadata: "CVPR · January 2026"
+    summary: |
+      High-channel autoencoder built on DINOv3/SigLIP2 semantic representation encoders; end-to-end encoder/decoder training with geometry-aware regularization and a refined training recipe to balance semantic understanding, generation quality, and reconstruction fidelity.
+
+      **SAE-T2I — Project Lead.** A scaling-oriented extension of SAE for text-to-image generation, using SAE as the autoencoder backbone for high-quality image synthesis.
+
+  - title: "Imaginarium: Vision-guided High-Quality Scene Layout Design"
+    metadata: "SIGGRAPH Asia Oral & TOG · Co-first author · January 2025"
+    summary: |
+      - Used an image generation model to create scene images, segmented and analyzed the images, and retrieved relevant assets from a predefined library.
+      - Trained a DINOv2 model to estimate the 6D pose and scale of each object.
+      - Fine-tuned the image generation model using rejection sampling to improve similarity between generated images and the asset library.
+
+      Reviews: 3 / 3 / 3 / 1 (all positive).
 
   - title: "QUITO-X: A New Perspective on Context Compression from the Information Bottleneck Theory"
-    authors: "Xu Huang*, et al."
-    publication: "EMNLP"
-    date: "2024-08-01"
+    metadata: "EMNLP · Co-first author"
+    url: "https://arxiv.org/abs/2408.10497"
     summary: |
-      Proposed a lightweight model proxying a large LLM, leveraging attention-based token importance to compress redundant context and reduce inference cost.  
-      [arXiv link](https://arxiv.org/abs/2408.10497)
-
-  - title: "Emu3.5: Native Multimodal Models are World Learners"
+      Used a small model as a proxy for a large model, using attention scores to identify key tokens during inference and compress redundant tokens to reduce the large model's inference cost.
 
 ---
 
