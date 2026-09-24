@@ -144,6 +144,6 @@ publications:
 I am Xu Huang, an MPhil student at Peking University, advised by Prof. Daquan Zhou. I am now interested in building useful AI that can act, evaluate its own work, and build complex systems through iterative, vision-in-the-loop reflection.
 I envision systems that can even build their own benchmarks, identify their own weaknesses, and create targeted environments and data to continually improve themselves.
 
-**Fun fact:** In the pre-agent era, I was the technical lead at an AI application startup that secured funding from MiraclePlus (奇绩创坛). Along the way, I gained hands-on experience with frontend and backend development, AWS infrastructure and deployment, a range of databases, and edge functions.
-
 In the pre-GPT era, I won several programming competition awards, including an ACM-ICPC Gold Medal, a CCPC Gold Medal, and an NOI Silver Medal.
+
+<p style="font-size: 0.875em;"><em>(Fun fact: In the pre-agent era, I was the technical lead at an AI application startup that secured funding from MiraclePlus (奇绩创坛). Along the way, I gained hands-on experience with frontend and backend development, AWS infrastructure and deployment, a range of databases, and edge functions.)</em></p>
