@@ -15,10 +15,10 @@ superuser: true
 # Social network links
 profiles:
   - icon: at-symbol
-    url: 'ydove1031@gmail.com'
+    url: 'mailto:ydove1031@gmail.com'
     label: E-mail Me
   - icon: brands/github
-    url: https://ydove0324.github.io/hxresume/
+    url: https://github.com/ydove0324
     label: GitHub
   - icon: academicons/google-scholar
     url: 'https://scholar.google.com/citations?user=rCyq9oIAAAAJ&hl=en'
