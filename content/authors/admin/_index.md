@@ -115,6 +115,12 @@ publications:
     summary: |
       Mainly contributed to the diffusion decoder, tokenizer, and Discrete Diffusion Adaption. Emu3.5 is one of the most advanced open-source native multimodal models developed by BAAI.
 
+  - title: "DC-SAE: Deep Compression Semantic Autoencoder for Faster Diffusion Convergence"
+    metadata: "2026 · First author"
+    url: "https://arxiv.org/abs/2609.39222"
+    summary: |
+      Combines semantic features with a pixel-detail branch to achieve faithful reconstruction at 32× spatial compression and faster diffusion-model convergence. [Code](https://github.com/DAGroup-PKU/DCSAE)
+
   - title: "SAE (Semantic AutoEncoder)"
     metadata: "CVPR · January 2026"
     summary: |
