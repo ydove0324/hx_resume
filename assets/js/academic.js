@@ -21,13 +21,15 @@
     if (event.key === 'Escape' && nav.classList.contains('is-open')) { closeMenu(); menu.focus(); }
   });
   document.addEventListener('click', event => { if (!event.target.closest('nav')) closeMenu(); });
-  const sections = links.map(link => document.querySelector(link.getAttribute('href')));
+  const sectionLinks = links.filter(link => link.pathname === location.pathname && link.hash);
+  const sections = sectionLinks.map(link => document.getElementById(link.hash.slice(1))).filter(Boolean);
+  if (!sections.length) return;
   let scheduled = false;
   const updateActive = () => {
     let active = sections[0];
     for (const section of sections) if (section.getBoundingClientRect().top <= 150) active = section;
     if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) active = sections[sections.length - 1];
-    links.forEach(link => {
+    sectionLinks.forEach(link => {
       if (link.hash === `#${active.id}`) link.setAttribute('aria-current', 'location');
       else link.removeAttribute('aria-current');
     });

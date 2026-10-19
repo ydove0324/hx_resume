@@ -1,0 +1,36 @@
+{{ $css := resources.Get "css/academic.css" | minify | fingerprint }}
+{{ $blogCSS := resources.Get "css/blog.css" | minify | fingerprint }}
+{{ $js := resources.Get "js/academic.js" | minify | fingerprint }}
+{{ $font := resources.Get "dist/font/Inter.var.woff2" }}
+<!doctype html>
+<html lang="{{ .Params.language | default "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }} · Xu Huang</title>
+  <meta name="description" content="{{ .Params.summary | default .Description }}">
+  <meta name="theme-color" content="#fafbf9">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:title" content="{{ .Title }} · Xu Huang">
+  <meta property="og:description" content="{{ .Params.summary | default .Description }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  {{ with .Resources.GetMatch "figure-1.png" }}<meta property="og:image" content="{{ .Permalink }}">{{ end }}
+  <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+  <link rel="preload" href="{{ $font.RelPermalink }}" as="font" type="font/woff2" crossorigin>
+  <style>@font-face{font-family:Inter;src:url('{{ $font.RelPermalink }}') format('woff2');font-style:normal;font-weight:100 900;font-display:swap}</style>
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  <link rel="stylesheet" href="{{ $blogCSS.RelPermalink }}" integrity="{{ $blogCSS.Data.Integrity }}">
+  {{ with (site.GetPage "/blog").OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" title="Xu Huang · Blog" href="{{ .Permalink }}">{{ end }}
+  <script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('xh-theme');document.documentElement.dataset.theme=t==='dark'||t==='light'?t:(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch(e){}</script>
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  {{ partial "academic-header.html" . }}
+  <main id="main" class="blog-shell" tabindex="-1">
+    {{ block "main" . }}{{ end }}
+    <footer class="site-footer"><span>© {{ now.Year }} Xu Huang</span><a href="#top">Back to top ↑</a></footer>
+  </main>
+</body>
+</html>

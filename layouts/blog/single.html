@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article>
+  <header class="article-header">
+    <a class="back-link" href="{{ "blog/" | relURL }}">← Blog</a>
+    <p class="publication-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time> · ResearchBoost</p>
+    <h1>{{ .Title }}</h1>
+    <p class="article-deck">{{ .Params.summary }}</p>
+  </header>
+  <details class="article-toc" open>
+    <summary>目录 / Contents</summary>
+    {{ .TableOfContents }}
+  </details>
+  <div class="article-body">{{ .Content }}</div>
+  <a class="paper-link" href="{{ "blog/" | relURL }}">← All articles</a>
+</article>
+{{ end }}

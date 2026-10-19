@@ -27,25 +27,7 @@
 </head>
 <body id="top">
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="wordmark" href="#about" aria-label="Xu Huang, back to introduction">Xu Huang<span class="wordmark-dot">.</span></a>
-      <nav aria-label="Main navigation">
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu <span aria-hidden="true">☰</span></button>
-        <div class="nav-links" id="nav-links">
-          <a href="#about" aria-current="location">About</a>
-          <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
-          <a href="#publications">Publications</a>
-          <a href="#awards">Awards</a>
-        </div>
-      </nav>
-      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch color theme">
-        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.2 15.4A8.5 8.5 0 0 1 8.6 3.8 8.5 8.5 0 1 0 20.2 15.4Z"/></svg>
-        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4 19 5"/></svg>
-      </button>
-    </div>
-  </header>
+  {{ partial "academic-header.html" . }}
   <div class="page-shell">
     <aside class="profile" aria-label="Profile and contact information">
       <img class="profile-photo" src="{{ $photo.RelPermalink }}" alt="Xu Huang's profile photo" width="{{ $photo.Width }}" height="{{ $photo.Height }}" fetchpriority="high">
