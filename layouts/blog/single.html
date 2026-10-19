@@ -3,6 +3,13 @@
   <header class="article-header">
     <a class="back-link" href="{{ "blog/" | relURL }}">← Blog</a>
     <p class="publication-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time> · ResearchBoost</p>
+    {{ with .Params.translation }}
+    {{ $other := site.GetPage . }}
+    <nav class="article-languages" aria-label="Language">
+      <a href="{{ $.RelPermalink }}" aria-current="page" lang="{{ $.Params.language }}">{{ if eq $.Params.language "en" }}English{{ else }}中文{{ end }}</a>
+      <a href="{{ $other.RelPermalink }}" hreflang="{{ $other.Params.language }}" lang="{{ $other.Params.language }}">{{ if eq $other.Params.language "en" }}English{{ else }}中文{{ end }}</a>
+    </nav>
+    {{ end }}
     <h1>{{ .Title }}</h1>
     <p class="article-deck">{{ .Params.summary }}</p>
   </header>

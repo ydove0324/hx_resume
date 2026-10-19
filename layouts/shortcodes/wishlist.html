@@ -1,0 +1,15 @@
+{{ $en := eq .Page.Params.language "en" }}
+<details class="wishlist" id="wishlist">
+  <summary><span><small>{{ if $en }}LET’S SPEED UP YOUR RESEARCH{{ else }}让研究跑得更快{{ end }}</small><strong>ResearchBoost Wishlist</strong><span>{{ if $en }}Tell us about your project →{{ else }}提交你的项目 →{{ end }}</span></span></summary>
+  <form class="wishlist-form" data-language="{{ .Page.Params.language }}">
+    <p>{{ if $en }}Share your project and compute needs. We will review compatibility and available resources.{{ else }}告诉我们你的项目和算力需求，我们会根据适配情况与可用资源选择项目。{{ end }}</p>
+    <label>{{ if $en }}Your email{{ else }}联系邮箱{{ end }}<input name="email" type="email" autocomplete="email" required maxlength="254" placeholder="you@example.com"></label>
+    <label>{{ if $en }}Repository URL{{ else }}Repo 链接{{ end }}<input name="repo" type="url" maxlength="500" placeholder="https://github.com/…"><small>{{ if $en }}For private repositories, describe how to share access in “Other information”.{{ else }}如果尚未公开，可以在“其他信息”填写提交方式。{{ end }}</small></label>
+    <label>{{ if $en }}Do you have compute available?{{ else }}是否自有算力支持{{ end }}<select name="compute"><option value="">{{ if $en }}Select an option{{ else }}请选择{{ end }}</option><option>{{ if $en }}Yes{{ else }}有{{ end }}</option><option>{{ if $en }}No{{ else }}没有{{ end }}</option><option>{{ if $en }}Partially / to be confirmed{{ else }}部分支持 / 待确认{{ end }}</option></select></label>
+    <label>{{ if $en }}Minimum compute required{{ else }}最少需要多少算力{{ end }}<input name="minimum" maxlength="500" placeholder="{{ if $en }}GPU model, count, memory, estimated hours{{ else }}GPU 型号、数量、显存、预计时长{{ end }}"></label>
+    <label class="wishlist-wide">{{ if $en }}Other information{{ else }}其他信息{{ end }}<textarea name="other" rows="4" maxlength="4000" placeholder="{{ if $en }}Training bottleneck, runnable configuration, or how to share your repository{{ else }}训练瓶颈、运行配置，或未公开仓库的提交方式{{ end }}"></textarea></label>
+    <div class="wishlist-wide wishlist-actions"><button type="submit">{{ if $en }}Open email draft ↗{{ else }}打开邮件草稿 ↗{{ end }}</button><button type="button" class="wishlist-copy">{{ if $en }}Copy template{{ else }}复制邮件模板{{ end }}</button></div>
+    <p class="wishlist-wide wishlist-note">{{ if $en }}Opens your email app with a draft addressed to{{ else }}将在你的邮件应用中打开草稿，收件人为{{ end }} <a href="mailto:ydove1031@gmail.com">ydove1031@gmail.com</a>{{ if $en }}. Review it and send when ready.{{ else }}。检查后由你发送。{{ end }}</p>
+    <p class="wishlist-wide wishlist-status" role="status" aria-live="polite"></p>
+  </form>
+</details>

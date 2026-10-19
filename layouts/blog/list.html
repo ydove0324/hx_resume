@@ -5,12 +5,13 @@
   <p>{{ .Description }}</p>
 </header>
 <div class="blog-posts">
-  {{ range .RegularPages.ByDate.Reverse }}
+  {{ range where .RegularPages.ByDate.Reverse "Params.translation_only" "ne" true }}
   <article class="blog-card">
     <p class="publication-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time> · AI4AI / Infrastructure</p>
     <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
     <p lang="{{ .Params.language }}">{{ .Params.summary }}</p>
-    <a class="paper-link" href="{{ .RelPermalink }}">Read article <span aria-hidden="true">→</span></a>
+    <a class="paper-link" href="{{ .RelPermalink }}">中文 <span aria-hidden="true">→</span></a>
+    {{ with .Params.translation }}{{ with site.GetPage . }}<a class="paper-link" href="{{ .RelPermalink }}" lang="en">English →</a>{{ end }}{{ end }}
   </article>
   {{ end }}
 </div>

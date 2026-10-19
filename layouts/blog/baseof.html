@@ -11,6 +11,7 @@
   <meta name="description" content="{{ .Params.summary | default .Description }}">
   <meta name="theme-color" content="#fafbf9">
   <link rel="canonical" href="{{ .Permalink }}">
+  {{ with .Params.translation }}{{ with site.GetPage . }}<link rel="alternate" hreflang="{{ .Params.language }}" href="{{ .Permalink }}">{{ end }}<link rel="alternate" hreflang="{{ $.Params.language }}" href="{{ $.Permalink }}">{{ end }}
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
   <meta property="og:title" content="{{ .Title }} · Xu Huang">
   <meta property="og:description" content="{{ .Params.summary | default .Description }}">
@@ -24,6 +25,8 @@
   {{ with (site.GetPage "/blog").OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" title="Xu Huang · Blog" href="{{ .Permalink }}">{{ end }}
   <script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('xh-theme');document.documentElement.dataset.theme=t==='dark'||t==='light'?t:(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch(e){}</script>
   <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+  {{ $wishlistJS := resources.Get "js/wishlist.js" | minify | fingerprint }}
+  <script src="{{ $wishlistJS.RelPermalink }}" integrity="{{ $wishlistJS.Data.Integrity }}" defer></script>
 </head>
 <body id="top">
   <a class="skip-link" href="#main">Skip to content</a>
