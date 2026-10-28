@@ -96,6 +96,14 @@ awards:
     awarder: National Olympiad in Informatics
 
 projects:
+  - title: "Research Boost Agent"
+    metadata: "Project Leader"
+    url: "https://ai4ai-for-anything.github.io/"
+    summary: |
+      - **Training infrastructure optimization.** Led the development of an agent that accelerates training infrastructure, achieving over **2× average speedup** across commonly used open-source projects and **500+ repository clones within its first week**.
+      - **Long-horizon agent benchmark.** Formulated infrastructure optimization as a benchmark for long-horizon agent tasks and a testbed for recursive self-improvement (RSI), evaluating models including Kimi K3.1, DeepSeek, OpenAI, and Astra.
+      - **Scaling toward in-house RSI.** Investigating how agents can turn abundant compute into better long-horizon performance through multi-agent planning and parallel execution approaching critical-path limits. Our goal is to combine rich context, long-term planning, and infrastructure-specialized models with automated harness optimization, training-data evolution, and benchmark construction and analysis to accelerate in-house foundation-model R&D.
+
   - title: "Visual Agent Post-Training — Meituan"
     metadata: "2026"
     summary: |
