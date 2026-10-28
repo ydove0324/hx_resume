@@ -80,7 +80,7 @@
         {{ range $i, $project := $p.projects }}
         <article class="project-entry">
           <div class="project-index" aria-hidden="true">{{ printf "%02d" (add $i 1) }}</div>
-          <div><div class="entry-heading"><h3>{{ .title }}</h3>{{ with .metadata }}<span class="date">{{ . }}</span>{{ end }}</div><div class="entry-summary">{{ .summary | markdownify }}</div></div>
+          <div><div class="entry-heading"><h3>{{ if .url }}<a href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3>{{ with .metadata }}<span class="date">{{ . }}</span>{{ end }}</div><div class="entry-summary">{{ .summary | markdownify }}</div></div>
         </article>
         {{ end }}
       </section>
